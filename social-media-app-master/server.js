@@ -17,7 +17,8 @@ dotenv.config();
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: ["http://localhost:3000", "https://post-it-heroku.herokuapp.com"],
+    origin: ["http://localhost:3000", "https://socialmedia-back-qmub.onrender.com
+"],
   },
 });
 
