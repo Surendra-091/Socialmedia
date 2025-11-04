@@ -1,4 +1,4 @@
-let BASE_URL = "https://socialmedia-back-qmub.onrender.com";
+let BASE_URL = "https://socialmedia-back-qmub.onrender.com/";
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   BASE_URL = "http://localhost:4000/";
 }
